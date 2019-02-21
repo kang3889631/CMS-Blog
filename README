@@ -1,1 +1,12 @@
-First CMS Project.
+CMS Project procedures in detail:
+1. split index.php file into several parts: 
+  db.php--database connection to mysql server
+  footer.php--footer file of index.php
+  header.php--header file of index.php
+  navigation.php--categories of navigation bar
+  sidebar.php--search form and sidebar categories
+  widget.ph--side widget well
+  
+2. Navigation.php
+  A. create database called "CMS" in MySQL server
+  B. create table called "categorires" under database
