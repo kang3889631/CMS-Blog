@@ -11,7 +11,7 @@ Section 12-----key word: query
 8. Creating a custom search engine: create a new page file called search.php, display sorted posts
 9. Adding Categories to the sidebar
 
-Section 13:
+Section 13------Add, delete and update categories
 1. Reorganize index.php and creating reusable code in the admin
 2. Creating the navigation links in admin
 3. Creating the admin category page: create a table to display cat_id, cat_title, delete button, edit button
@@ -19,8 +19,11 @@ Section 13:
 5. Adding categories (display function is behind this, so no need to refresh page)
 6. Deleting categories (adding a special function to our header file): auto refresh page after add category)
 Hint: put delete categories function before display_all function, no need to auto refresh
-7.Updating or editing categories
+7. Updating or editing categories
 Hint: included file needs to global variable to use current file varialbe
+8. Create function.php to seperate php functions
+
+Section 14:
 
 
 
