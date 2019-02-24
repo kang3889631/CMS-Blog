@@ -21,3 +21,7 @@ Section 13:
 Hint: put delete categories function before display_all function, no need to auto refresh
 7.Updating or editing categories
 Hint: included file needs to global variable to use current file varialbe
+
+
+
+
