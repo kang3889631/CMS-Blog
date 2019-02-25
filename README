@@ -1,12 +1,30 @@
-CMS Project procedures in detail:
-1. split index.php file into several parts: 
-  db.php--database connection to mysql server
-  footer.php--footer file of index.php
-  header.php--header file of index.php
-  navigation.php--categories of navigation bar
-  sidebar.php--search form and sidebar categories
-  widget.ph--side widget well
-  
-2. Navigation.php
-  A. create database called "CMS" in MySQL server
-  B. create table called "categorires" under database
+CMS Project Sections
+
+Section 12-----key word: query
+1. Add working structure and split index.php to different parts
+2. Create database and category table for the CMS
+3. Build db.php to connect database and include db.php in index.php
+4. Inserting data into category table and display it (navigation.php)
+5. Creating posts table
+6. Inserting data into the posts table and displaying it (index.php)
+7. Inserting the post image and displaying it (save image file name in database)
+8. Creating a custom search engine: create a new page file called search.php, display sorted posts
+9. Adding Categories to the sidebar
+
+Section 13------Add, delete and update categories
+1. Reorganize index.php and creating reusable code in the admin
+2. Creating the navigation links in admin
+3. Creating the admin category page: create a table to display cat_id, cat_title, delete button, edit button
+4. Displaying data in category page
+5. Adding categories (display function is behind this, so no need to refresh page)
+6. Deleting categories (adding a special function to our header file): auto refresh page after add category)
+Hint: put delete categories function before display_all function, no need to auto refresh
+7. Updating or editing categories
+Hint: included file needs to global variable to use current file varialbe
+8. Create function.php to seperate php functions
+
+Section 14:
+
+
+
+
