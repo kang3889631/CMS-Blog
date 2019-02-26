@@ -29,8 +29,8 @@
                         include "includes/add_post.php";
                         break;
                             
-                        case '34';
-                        echo "NICE 34";
+                        case 'edit_post';
+                        include "includes/edit_post.php";
                         break;
                             
                         case '34';
@@ -42,14 +42,9 @@
                         break;
                             
                     }    
-                        
-                        
-                        
-                        
+   
                     ?>
-                           
-                            
-                              
+       
                     </div>
                 </div>
                 <!-- /.row -->
