@@ -23,8 +23,19 @@ Hint: put delete categories function before display_all function, no need to aut
 Hint: included file needs to global variable to use current file varialbe
 8. Create function.php to seperate php functions
 
-Section 14:
-
-
-
+Section 14: admin mode
+1. Creating a HTML table in admin to display a list of posts
+2. Display posts list in admin
+3. Including pages based on condition technique(switch funciton)
+4. Creating post HTML form in admin (add_post.php)
+5. Inserting post data from admin
+6. Deleting posts in admin (header(Location:current page))
+7. Creating the HTML edit form post page
+8. Displaying the edit data in post edit page
+9. Dynamic category editing/image display
+10. Relating categories to posts and displaying it
+11. Adding category dropdown to the add post page
+12. Adding individual post page and link
+13. Creating the category page
+14. Setting up some links and making an excerpt (substr funtion)
 
