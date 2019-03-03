@@ -86,8 +86,7 @@ echo "</tr>";
           $query = "DELETE FROM comments WHERE comment_id = {$the_comment_id}";
           $delete_query = mysqli_query($connection, $query);
           header("Location: comments.php");
-      }  
-        
+      }
         
     ?>
                     </tbody>    
