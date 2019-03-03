@@ -39,3 +39,32 @@ Section 14: admin mode
 13. Creating the category page
 14. Setting up some links and making an excerpt (substr funtion)
 
+Section 15: Comments
+1. Creating the comments table and inserting form in admin
+2. Creating the comments page and HTML form in admin(Similar to post.php)
+3. Creating the Query for displaying comments in admin
+4. Inserting new fields in Front end comment form and testing it
+5. Creating the Front End comment insert query
+6. Finishing the query to send comment data(Front end)
+7. Relating comments to posts
+8. Deleting comments
+9. Approving and unapproving comments
+10. Displaying comments based on approval
+11. Increasing comments count: count increment one for every add_comment
+12. Adjustments for comments and displaying post based on status
+Note: future work-----for deleting every comments, comment count should decrement one as well
+Section 16: Users
+
+
+
+
+
+
+
+
+
+
+
+
+
+
