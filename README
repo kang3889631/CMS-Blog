@@ -54,7 +54,17 @@ Section 15: Comments
 12. Adjustments for comments and displaying post based on status
 Note: future work-----for deleting every comments, comment count should decrement one as well
 Section 16: Users
-
+1. Creating the users table and data insert
+2. Creating users pages and links
+3. Modifying user table heading
+4. Displaying users in admin
+5. Adding users in admin
+6. Deleting users
+7. Changing user roles
+8. Setting up the edit user page
+9. Displaying user values in edit page
+10. Adding select options to user role
+11. updating user
 
 
 
