@@ -66,9 +66,21 @@ Section 16: Users
 10. Adding select options to user role
 11. updating user
 
-Section 17: Login
+Section 17: Login & Logout
+1. Creating the login form
+2. Making the login page
+3. Select User Query
+4. Validating user Query front end
+5. Setting values with Sessions: 
+ - function session_start() to deliver info
+ - user global $_SESSION['xxx'] to user data
+6. Validating user admin
+7. Logout page improved validation
 
 Section 18: Profile
+1. Creating the Profile Page
+2. Displaying user data
+3. Updating user data
 
 Section 19: Dashboard
 
