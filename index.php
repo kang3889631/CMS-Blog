@@ -19,6 +19,9 @@
                         $post_date = $row['post_date'];
                         $post_image = $row['post_image'];
                         $post_content = substr($row['post_content'],0,110);
+                        $post_status = $row['post_status'];
+                    
+                    if($post_status === 'Published'){
                 ?>
                     
                     
@@ -42,7 +45,7 @@
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
-                <?php }  ?>
+                <?php }}  ?>
 
             </div>
 
