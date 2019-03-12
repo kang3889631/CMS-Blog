@@ -92,9 +92,25 @@ Section 19: Dashboard
 7. Displaying dynamic data in chart
 
 Section 20: Improving CMS
+1. Adjusting post echo
+2. Removing read more buttion
+3. Adding notification to add user page
 
 Section 21: Extra features
+1. Adding dynamic category selection for edit post page
+2. Adding extra element to dashboard
+3. Adding the WYSIWYG editor
+4. Adding links to post images and read more button
+5. Adding post update notification
+6. Adding post edit link in front end
+7. Adding bulk options posts
+8. Adding dropdown option for add post page
+9. Adding post creation notice to add post page
+10. Adding link to add new button in post page
+11. Adding link to view posts from admin
+12. Adding validation to comments in post page
 
+Section 22: CMS-Extra features - user registration
 
 
 

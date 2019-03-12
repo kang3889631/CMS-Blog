@@ -22,6 +22,11 @@ if(isset($_POST['create_post'])){
     
     $create_post_query = mysqli_query($connection, $query);
     confirmQuery($create_post_query);
+    
+    $the_post_id = mysqli_insert_id($connection);
+    
+    echo "<p class='bg-success'>Post Created. <a href='../post.php?p_id={$the_post_id}'>View Post</a> or <a href='posts.php'>Edit More Posts</a>
+            </p>";
 }
     
 
@@ -63,7 +68,7 @@ if(isset($_POST['create_post'])){
     <div class="form-group">
     <label for="post_status">Post Status</label>
     <select name="post_status" id="">
-        <option value="Published">Select Options</option>
+        <option value="Draft">Post Status</option>
         <option value="Published">Published</option>
         <option value="Draft">Draft</option>
     </select>
@@ -78,14 +83,6 @@ if(isset($_POST['create_post'])){
         <label for="post_tags">Post Tags</label>
         <input type="text" class="form-control" name="post_tags">
     </div>
-    
-    <script>
-    ClassicEditor
-        .create( document.querySelector( '#body' ) )
-        .catch( error => {
-            console.error( error );
-        } );
-    </script>
     
     <div class="form-group">
         <label for="post_content">Post Content</label>

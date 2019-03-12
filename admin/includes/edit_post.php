@@ -54,9 +54,7 @@
             
             confirmQuery($update_post);
             
-            echo "<p class='bg-success'>Post Update. <a href='../post.php?p_id={$the_post_id}'>View Post</a> or
-            
-            <a href='posts.php'>Edit More Posts</a>
+            echo "<p class='bg-success'>Post Update. <a href='../post.php?p_id={$the_post_id}'>View Post</a> or <a href='posts.php'>Edit More Posts</a>
             </p>";
             
         }
@@ -120,7 +118,7 @@ $cat_title = $row['cat_title'];
     
     <div class="form-group">
         <label for="post_content">Post Content</label>
-        <textarea class="form-control" name="post_content" id="" cols="30" rows="10"><?php echo $post_content; ?>
+        <textarea class="form-control" name="post_content" id="body" cols="30" rows="10"><?php echo $post_content; ?>
         </textarea>
     </div>
     
