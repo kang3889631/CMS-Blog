@@ -110,6 +110,7 @@ Section 21: Extra features
 11. Adding link to view posts from admin
 12. Adding validation to comments in post page
 
+//Hints: MySQL error: export database and reinstall server&MySQL
 Section 22: CMS-Extra features - user registration
 
 
