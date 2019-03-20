@@ -112,7 +112,17 @@ Section 21: Extra features
 
 //Hints: MySQL error: export database and reinstall server&MySQL
 Section 22: CMS-Extra features - user registration
-
+1. Downloading&placing form makeup: Registration page
+2. Testing registration form
+3. Extracting form values and escaping
+4. Starting Query and Default tables values
+5. Fetching out database for default values
+6. Registering users
+7. Validating fields
+8. Encrypting user passwords (funtion crypt)
+9. Updating CMS due to password encryption
+10. User page display shorter password field
+11. User page dropdown default value change
 
 
 
